@@ -3,7 +3,7 @@
     margin:0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     overflow-x: hidden;
-    background: #292727;
+    background-image: url(bg3.jpg);
     /* background-image: url(background.jpg); */
     background-position: center;
     background-repeat: no-repeat;
@@ -239,10 +239,10 @@ a{
 .image_container .image{
     width:350px;
     height:350px;
-    border-radius:.5rem;
+    border-radius:3rem;
     padding:0;
     margin:0;
-    box-shadow:-1px -1px 3px rgb(168, 160, 63);
+    /* box-shadow:-1px -1px 3px rgb(168, 160, 63); */
     position:absolute;
     z-index: 1;
     transition: all 1s linear;
@@ -254,10 +254,10 @@ a{
 .image_container .img2{
     width:350px;
     height:350px;
-    border-radius:.5rem;
+    border-radius:3rem;
     padding:0;
     margin:0;
-    box-shadow:-1px -1px 3px rgb(168, 160, 63);
+    /* box-shadow:-1px -1px 3px rgb(168, 160, 63); */
     position:relative;
     top:0;
     left:0;
